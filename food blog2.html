@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <!-- swiper slider css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css"
+        integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA=="
+        crossorigin="anonymous" />
+
+    <!-- custom style.css file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header" class="shadow bg-light">
+        <nav class="container navbar">
+            <a href="/index.html" class="nav-brand text-dark">
+                Blog Site
+            </a>
+
+            <!-- toggle button -->
+            <!-- collapse on toggle button click -->
+            <div class="collapse">
+                <ul class="navbar-nav">
+                    <div class="dropdown">
+                        <button class="nav-link">Topics
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="entertainment.html">Entertainment</a>
+                            <a href="sports.html">Sports</a>
+                            <a href="food.html">Food</a>
+                            <a href="Fashion.html">Fashion</a>
+                            <a href="travel.html">Travel</a>
+                        </div>
+                    </div>
+
+                    <a href="home.html" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">Profile</a>
+                    <a href="#" class="nav-link">Contact</a>
+                    <a href="create blog.html" class="nav-link">Create Blog</a>
+                    <a href="index.html" class="nav-link">Logout</a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- .Header -->
+
+    <!-- Main Site -->
+    <main id="site-main">
+
+        <!-- Post Content -->
+        <section class="container">
+            <article id="post">
+                <!-- article heading -->
+                <div class="headings text-center">
+                    <div class="category">
+                        <a href="#" class="nav-link">Food</a>
+                    </div>
+
+                    <div class="title">
+                        <h2 class="text-title text-dark display-1">The best blogs about Indian Food with delicious
+                            recipes and type of foods liked by every nation</h2>
+                    </div>
+
+                    <div class="meta">
+                        <a href="#" class="link display-2 text-secondary px-1">
+                            <i class="fas fa-user text-primary"></i> Deb Dutta
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- thumbnail  -->
+                <div class="thumbnail mt-3">
+                    <img src="food blog 2.jpg" class="thumbnail" alt="">
+                </div>
+
+                <!-- content -->
+                <div class="content text-dark display-2 secondary-title mt-3">
+                    <p>If you need a last-minute side dish, I think this watercress salad would be perfect. It’s exactly
+                        the kind of dish I like to serve at a special occasion meal. Light and refreshing, it provides a
+                        welcome contrast to heartier fare like cinnamon rolls (at brunch) or a saucy, cheesy lasagna (at
+                        dinner). And while it’s simple to make, it’s a bit more unexpected than a regular green salad.
+                        The watercress gives it a peppery bite, which I tame with sweet, juicy orange segments and a
+                        bright champagne vinaigrette. Mozzarella and avocado add creamy richness, and toasted
+                    </p>
+                    <p>
+                        This watercress salad is best right after it’s assembled, but you can still do some of the prep
+                        in advance. Make the dressing today, and blanch the snap peas. Tomorrow, it’ll be a breeze to
+                        put together!
+                        Watercress Salad Recipe Ingredients
+                        Here’s what you need to make this watercress salad recipe:
+
+                        Watercress, of course! If you’ve never tried it, it has a distinct peppery taste and lovely
+                        delicate texture. If you can’t find watercress, make this salad with fresh arugula or mixed
+                        salad greens instead.
+                        Snap peas and fennel – For crunch! They also add their unique flavors to the salad. The fennel
+                        brings notes of anise, while the snap peas add an earthy sweetness.
+                        Orange segments – Their sweetness cuts the watercress’s bite.
+                        Avocado and fresh mozzarella – I love how these rich, creamy ingredients play off the fresh
+                        spring veggies.
+                        Toasted pistachios – For (more) crunch and nutty flavor.
+                        Champagne vinaigrette – I make this simple dressing with olive oil, fresh orange juice, Dijon
+                        mustard, and champagne vinegar. It brings the salad together, adding tangy, fruity flavor.
+                        A lemon wedge – Squeeze it over the salad for a nice bright finish.
+                        And salt and pepper – To make all the flavors pop!
+
+                    </p>
+
+
+                </div>
+            </article>
+
+            <div class="post-comments py-2">
+                <h3 class="text-center display-1 secondary-title py-2">Leave Comment</h3>
+
+                <div class="comment-form">
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <input type="text" class="form-control " placeholder="Name">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <textarea class="form-control mt-3" placeholder="Message" rows="10"></textarea>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary display-2 text-light mt-2">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            <!-- .post footer -->
+            <h1>Feedback</h1>
+            <div class="stars" data-rating="0">
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+            </div>
+
+            <script>
+
+                //initial setup
+                document.addEventListener('DOMContentLoaded', function () {
+                    let stars = document.querySelectorAll('.star');
+                    stars.forEach(function (star) {
+                        star.addEventListener('click', setRating);
+                    });
+
+                    let rating = parseInt(document.querySelector('.stars').getAttribute('data-rating'));
+                    let target = stars[rating - 1];
+                    target.dispatchEvent(new MouseEvent('click'));
+                });
+
+                function setRating(ev) {
+                    let span = ev.currentTarget;
+                    let stars = document.querySelectorAll('.star');
+                    let match = false;
+                    let num = 0;
+                    stars.forEach(function (star, index) {
+                        if (match) {
+                            star.classList.remove('rated');
+                        } else {
+                            star.classList.add('rated');
+                        }
+                        //are we currently looking at the span that was clicked
+                        if (star === span) {
+                            match = true;
+                            num = index + 1;
+                        }
+                    });
+                    document.querySelector('.stars').setAttribute('data-rating', num);
+                }
+
+            </script>
+
+        </section>
+        <!-- .Post Content -->
+
+
+
+    </main>
+    <!-- .Main Site -->
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container">
+            <a class="nav-link">Translate<div id="google_translate_element"></div></a>
+        </div>
+    </footer>
+
+    <!-- .footer -->
+    <!-----.Translate----->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <!-----.Translate----->
+
+    <!-- masonry libray for horizontal grid -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
+        integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ=="
+        crossorigin="anonymous"></script>
+
+    <!-- custom javascript main.js file -->
+    <script src="main.js"></script>
+</body>
+
+</html>

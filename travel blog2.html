@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <!-- swiper slider css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css"
+        integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA=="
+        crossorigin="anonymous" />
+
+    <!-- custom style.css file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header" class="shadow bg-light">
+        <nav class="container navbar">
+            <a href="/index.html" class="nav-brand text-dark">
+                Blog Site
+            </a>
+
+            <!-- toggle button -->
+            <!-- collapse on toggle button click -->
+            <div class="collapse">
+                <ul class="navbar-nav">
+                    <div class="dropdown">
+                        <button class="nav-link">Topics
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="entertainment.html">Entertainment</a>
+                            <a href="sports.html">Sports</a>
+                            <a href="food.html">Food</a>
+                            <a href="Fashion.html">Fashion</a>
+                            <a href="travel.html">Travel</a>
+                        </div>
+                    </div>
+
+                    <a href="home.html" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">Profile</a>
+                    <a href="#" class="nav-link">Contact</a>
+                    <a href="create blog.html" class="nav-link">Create Blog</a>
+                    <a href="index.html" class="nav-link">Logout</a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- .Header -->
+
+    <!-- Main Site -->
+    <main id="site-main">
+
+        <!-- Post Content -->
+        <section class="container">
+            <article id="post">
+                <!-- article heading -->
+                <div class="headings text-center">
+                    <div class="category">
+                        <a href="#" class="nav-link">Travel</a>
+                    </div>
+
+                    <div class="title">
+                        <h2 class="text-title text-dark display-1">Where is the
+                            best place to get
+                            insider advice on your vacation?</h2>
+                    </div>
+
+                    <div class="meta">
+                        <a href="#" class="link display-2 text-secondary px-1">
+                            <i class="fas fa-user text-primary"></i> Shivya Nath
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- thumbnail  -->
+                <div class="thumbnail mt-3">
+                    <img src="travel blog 1.png" class="thumbnail" alt="">
+                </div>
+
+                <!-- content -->
+                <div class="content text-dark display-2 secondary-title mt-3">
+                    <p>I often wonder what makes a travel experience truly unforgettable.
+                        Take my recent trip to Georgia (the country) for instance.
+                        When our plans to travel to the remote Tusheti region got snowed on,
+                        we decided to visit a forgotten protected reserve near Georgia’s
+                        border with Azerbaijan and the Dagestan province of Russia.
+                        I was recovering from a flu, and even on a sunny day, wrapped up
+                        in layers and a warm hat.
+                    </p>
+                    <p>“Cold?” Otto, our potbellied,
+                        jolly Georgian host asked me. I solemnly nodded.
+                    </p>
+                    <p>He turned to search for something in the shelves of his
+                        outdoor kitchen shed. I tried to tell him I had already taken medicine,
+                        but he wouldn’t stop.
+                    </p>
+                    <p>
+                        He finally found what he was looking for. A bottle of homemade chacha – a
+                        strong plum liquor ubiquitous in Georgian households.
+                    </p>
+                    <p>“Chacha very good,” he said, even as I resisted it at first.
+                        Then we cheered to India, Georgia, family, religion (even if mine is atheism)
+                        and good health, and downed shot after shot.
+                    </p>
+                    <p>I guess the flu, hiking to the waterfalls in the protected reserve, my friend’s
+                        tumble into a glacial river and all the homemade jams we ate for breakfast will gradually
+                        fade away in my memory. But I’ll never forget sitting in that little shed by the garden,
+                        surrounded by grape and plum vines, the warm sunlight pouring in through cracks in the tin roof,
+                        drinking chacha with Otto.
+
+                        So if you ask me, the most unforgettable travel experiences are the ones that push us beyond our
+                        comfort zone,
+                        happen outside of planned itineraries and immerse us in the local way of life. And for that
+                        reason, I’ve sworn by
+                        Airbnb in my last three years of traveling.</p>
+                </div>
+            </article>
+
+            <div class="post-comments py-2">
+                <h3 class="text-center display-1 secondary-title py-2">Leave Comment</h3>
+
+                <div class="comment-form">
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <input type="text" class="form-control " placeholder="Name">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <textarea class="form-control mt-3" placeholder="Message" rows="10"></textarea>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary display-2 text-light mt-2">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            <!-- .post footer -->
+            <h1>Feedback</h1>
+            <div class="stars" data-rating="0">
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+            </div>
+
+            <script>
+
+                //initial setup
+                document.addEventListener('DOMContentLoaded', function () {
+                    let stars = document.querySelectorAll('.star');
+                    stars.forEach(function (star) {
+                        star.addEventListener('click', setRating);
+                    });
+
+                    let rating = parseInt(document.querySelector('.stars').getAttribute('data-rating'));
+                    let target = stars[rating - 1];
+                    target.dispatchEvent(new MouseEvent('click'));
+                });
+
+                function setRating(ev) {
+                    let span = ev.currentTarget;
+                    let stars = document.querySelectorAll('.star');
+                    let match = false;
+                    let num = 0;
+                    stars.forEach(function (star, index) {
+                        if (match) {
+                            star.classList.remove('rated');
+                        } else {
+                            star.classList.add('rated');
+                        }
+                        //are we currently looking at the span that was clicked
+                        if (star === span) {
+                            match = true;
+                            num = index + 1;
+                        }
+                    });
+                    document.querySelector('.stars').setAttribute('data-rating', num);
+                }
+
+            </script>
+
+        </section>
+        <!-- .Post Content -->
+
+
+
+    </main>
+    <!-- .Main Site -->
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container">
+            <a class="nav-link">Translate<div id="google_translate_element"></div></a>
+        </div>
+    </footer>
+
+    <!-- .footer -->
+    <!-----.Translate----->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <!-----.Translate----->
+
+    <!-- masonry libray for horizontal grid -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
+        integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ=="
+        crossorigin="anonymous"></script>
+
+    <!-- custom javascript main.js file -->
+    <script src="main.js"></script>
+</body>
+
+</html>
